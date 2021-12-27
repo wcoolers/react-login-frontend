@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+   background-image: url("./images/img.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   max-width: 990px;
+   margin: 0 auto;
+   display: flex;
 }
+.signup {
+   background-color: white;
+   padding: 5rem;
+}
+.form-wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form-wrapper > p {
+   font-weight: bold;
+}
+form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.banner {
+   background: #0096FF;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+.banner > p, .banner > h2 {
+   text-align: center;
+   margin: 2rem;
+}
+.col-1 {
+   width: 40%;
+   margin: 0 1rem 1rem 0;
+}
+.col-2 {
+   width: 60%;
+   margin: 0 0 1rem 1rem;
+}
+input, button, select {
+   border: .1rem solid #eee;
+   padding: .5rem 0 .5rem .8rem;
+   color: grey;
+   font-size: 1rem;
+   outline: none;
+}
+button {
+   background: #ddd;
+   cursor: pointer;
+}
+small {
+   color: grey;
+}
+.passwordBox {
+   position: relative;
+   border: .1rem solid #eee;
+   width: auto;
+}
+input[name=password] {
+   border: none;
+   width: 88%;
+}
+.icon-see {
+   background-image: url("./images/iconmonstr-eye-thin.svg")
+}
+.icon-blind {
+   background-image: url("./images/iconmonstr-eye-off-thin.svg")
+}
+.background {
+   background-repeat: no-repeat;
+   background-size: 1rem;
+   width: 1rem;
+   height: 2rem;
+   background-position: 99%;
+   right: 0;
+   top: 1%;
+   position: absolute;
+   cursor: pointer;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ /* Media Query*/
+@media (max-width: 600px) {
+  .container {
+    justify-content: center;
+    flex-direction: column-reverse;
+    background: white;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .banner {
+    background: white;
+    color: black;
+    align-items: flex-start;
+    width: 90%;
+    gap: .5rem;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  .banner > p, .banner > h2 {
+    text-align: justify;
+    margin: 0;
+ }
+  .signup {
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+  }
+  .form-wrapper {
+    width: 90%;
+    padding-top: 4rem;
   }
 }
