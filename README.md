@@ -1,4 +1,4 @@
-This is a responsive simple sign-up page built with Reactjs.
+This is a simple responsive sign-up page built with Reactjs.
 
 # In the root directory
 npm install
