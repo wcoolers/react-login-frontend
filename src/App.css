@@ -5,7 +5,7 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 .container {
-   background-image: url("./images/img.jpg");
+   background-image: url("./images/img2.jpg");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -60,6 +60,9 @@ button {
    background: #ddd;
    cursor: pointer;
 }
+button:hover {
+   background: #ccc;
+}
 small {
    color: grey;
 }
@@ -98,14 +101,13 @@ input[name=password] {
     background: white;
   }
   .banner {
-    background: white;
-    color: black;
     align-items: flex-start;
     width: 90%;
     gap: .5rem;
     max-width: 400px;
     margin: 0 auto;
-    padding-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
   }
   .banner > p, .banner > h2 {
     text-align: justify;
