@@ -5,17 +5,19 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 .container {
-   background-image: url("./images/img.jpg");
+   background-image: url("./images/img2.jpg");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
    max-width: 990px;
    margin: 0 auto;
    display: flex;
+   /* border: 1px solid red; */
 }
 .signup {
    background-color: white;
    padding: 5rem;
+   /* border: 1px solid; */
 }
 .form-wrapper {
   max-width: 400px;
@@ -36,6 +38,7 @@ form {
    justify-content: center;
    align-items: center;
    color: #fff;
+   border-radius: 45px 45px 45px 45px;
 }
 .banner > p, .banner > h2 {
    text-align: center;
@@ -59,6 +62,9 @@ input, button, select {
 button {
    background: #ddd;
    cursor: pointer;
+}
+button:hover {
+   background: #ccc;
 }
 small {
    color: grey;
@@ -98,24 +104,33 @@ input[name=password] {
     background: white;
   }
   .banner {
-    background: white;
-    color: black;
+    /* background: white; */
+    background: #0096FF;
+    /* color: black; */
+    color: white;
     align-items: flex-start;
     width: 90%;
-    gap: .5rem;
+    gap: 2rem;
+    /* border: 1px solid red; */
+    /* margin-bottom: 0; */
     max-width: 400px;
     margin: 0 auto;
-    padding-top: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 15px 15px 15px 15px;
+    /* padding-top: 2rem; */
   }
   .banner > p, .banner > h2 {
     text-align: justify;
     margin: 0;
+    /* border: 1px solid; */
  }
   .signup {
     align-items: center;
     width: 100%;
     padding: 0;
     margin-left: 0;
+    /* border: 1px solid; */
+    padding-bottom: .5rem;
   }
   .form-wrapper {
     width: 90%;
