@@ -1,10 +1,1 @@
-This is a simple responsive sign-up page built with Reactjs.
-
-# In the root directory
-npm install
-
-# then, to run on http://localhost:3000
-npm start
-
-# Build for production
-npm run build
+This is a simple responsive sign-up page built with Reactjs. View at https://wcoolers.github.io/react-login-frontend/
