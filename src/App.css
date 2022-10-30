@@ -59,6 +59,9 @@ input, button, select {
    font-size: 1rem;
    outline: none;
 }
+input:focus {
+   box-shadow: 1px 1px 1px black;
+}
 button {
    background: #ddd;
    cursor: pointer;

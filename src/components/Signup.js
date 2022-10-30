@@ -115,7 +115,7 @@ export default function Signup() {
                     
                     <small>Minimum 8 characters</small>
                     <button>Next</button>
-                    <small>By clicking the 'Next' button, you agreee to creating a free account and to <Link to="/terms">Terms of Service</Link> and to <Link to="/privacy">Privacy Policy</Link></small> 
+                    <small>By clicking the 'Next' button, you agree to creating a free account and to <Link to="/terms">Terms of Service</Link> and to <Link to="/privacy">Privacy Policy</Link></small> 
                 
                 </form>
  
