@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-login-frontend/static/css/main.f0a964fd.css",
+    "main.js": "/react-login-frontend/static/js/main.3b46f517.js",
+    "static/media/img2.jpg": "/react-login-frontend/static/media/img2.59cef1c6eaa7f3fd5f9e.jpg",
+    "static/media/iconmonstr-eye-off-thin.svg": "/react-login-frontend/static/media/iconmonstr-eye-off-thin.eb0a87724072a43c75fc.svg",
+    "index.html": "/react-login-frontend/index.html",
+    "static/media/iconmonstr-eye-thin.svg": "/react-login-frontend/static/media/iconmonstr-eye-thin.bec9137229f8281c113a.svg",
+    "main.f0a964fd.css.map": "/react-login-frontend/static/css/main.f0a964fd.css.map",
+    "main.3b46f517.js.map": "/react-login-frontend/static/js/main.3b46f517.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0a964fd.css",
+    "static/js/main.3b46f517.js"
+  ]
+}
